@@ -65,5 +65,3 @@ meteor run ios device
 ```
 
 ### 1.0
-
-- Versão Final
