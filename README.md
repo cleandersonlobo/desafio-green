@@ -1,3 +1,4 @@
+<img src="resources/icons/android_xhdpi.png" align="right" />
 # Desafio Green
 
 Aplicativo desenvolvido para o #desafiofrontend [Greenmile](http://greenmile.com/pt/greenmile/).
