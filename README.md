@@ -28,7 +28,7 @@ meteor add cleandersonlobo:mdi-icons
 ```
 + Outros pacotes no [Atmosphere](https://atmospherejs.com/)
 
-### Quick Start Projet
+## Quick Start Projet
 
 On Windows, simply go to https://www.meteor.com/install and use the Windows installer.
 
@@ -38,19 +38,23 @@ On Linux/macOS, use this line:
 curl https://install.meteor.com/ | sh
 ```
 
-Clone project:
+Get the Code
 
 ```bash
 git clone https://github.com/cleandersonlobo/desafio-green.git
 ```
 
-Run it:
+## Running:
+
+### Iniciar Servidor
 
 ```bash
 cd desafio-green
 meteor
 ```
-Run Android or iOS (Simulator and Device)
++ Link da aplicação é http://localhost:3000
+
+### Iniciar aplicação Android ou iOS (Simulador e Dispositivo)
 
 ```bash
 meteor run android
