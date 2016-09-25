@@ -74,4 +74,4 @@ Para gerar o <b>apk</b> ou projeto no Xcode basta realizar o seguinte comando;
 meteor build <build-output-directory> --server <host>:<port>
 ```
 
-### 1.0
+### Versão 1.0
