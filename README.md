@@ -1,11 +1,12 @@
 # Desafio Green
 
-Aplicativo desenvolvido para o desafio feito pela [Greenmile](http://greenmile.com/pt/greenmile/).
+Aplicativo desenvolvido para o #desafiofrontend [Greenmile](http://greenmile.com/pt/greenmile/).
 
 ### Desenvolvido com
 
 * [Meteor](https://www.meteor.com) - Meteor é um plataforma full-stack de JavaScript para desenvolvimento de aplicações web e mobile.
 * [Cordova](https://cordova.apache.org/) - A solução para Apps híbridas mais usada no mundo.
+* [Materialize](http://materializecss.com/) - Um framework front-end moderno e responsivo baseado em Material Design.
 * [Leafletjs](http://leafletjs.com/) - Uma biblioteca JavaScript open-source
 de mapas.
 
@@ -20,14 +21,15 @@ de mapas.
 * kevohagan:sweetalert
 * fourseven:scss
 ```
+Exemplo de como instalar um pacote Meteor
+```
+meteor add cleandersonlobo:mdi-icons
+```
++ Mais Pacotes só acessar o [Atmosphere](https://atmospherejs.com/)
 
 ## Learn More
 
-Learn more with the quick start guide, check out other tutorials, or head straight to the API documentation. If you have any questions, take a look at the FAQ first.
 
-API documentation (http://leafletjs.com/reference.html).
-
-Quick Start Guide (http://leafletjs.com/examples/quick-start.html).
 
 ### 1.0
 
