@@ -1,7 +1,7 @@
 <img src="resources/icons/android_xhdpi.png" align="right" />
 # Desafio Green
 
-Aplicativo desenvolvido para o #desafiofrontend [Greenmile](http://greenmile.com/pt/greenmile/).
+Aplicativo desenvolvido para o <b>#desafiofrontend</b> [Greenmile](http://greenmile.com/pt/greenmile/).
 
 ### Desenvolvido com
 
@@ -22,15 +22,47 @@ de mapas.
 * kevohagan:sweetalert
 * fourseven:scss
 ```
-Exemplo de como instalar um pacote Meteor
+Exemplo de como instalar um novo pacote
 ```
 meteor add cleandersonlobo:mdi-icons
 ```
-+ Mais Pacotes só acessar o [Atmosphere](https://atmospherejs.com/)
++ Outros pacotes no [Atmosphere](https://atmospherejs.com/)
 
-## Learn More
+### Quick Start Projet
 
+On Windows, simply go to https://www.meteor.com/install and use the Windows installer.
 
+On Linux/macOS, use this line:
+
+```bash
+curl https://install.meteor.com/ | sh
+```
+
+Clone project:
+
+```bash
+git clone https://github.com/cleandersonlobo/desafio-green.git
+```
+
+Run it:
+
+```bash
+cd desafio-green
+meteor
+```
+Run Android or iOS (Simulator and Device)
+
+```bash
+meteor run android
+or
+meteor run android-device
+```
+Need Xcode
+```bash
+meteor run ios
+or
+meteor run ios device
+```
 
 ### 1.0
 
