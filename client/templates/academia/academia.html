@@ -1,0 +1,49 @@
+<template name="academia">
+  {{#with academia}}
+  <div class="section sem-pb sem-mb">
+      <h5 class="center-align sem-margin-padding"><b>{{name}}</b></h5>
+  </div>
+  <div class="section">
+    {{#if academia.places}}
+    {{#each academia.places}}
+    <ul class="collection">
+      <li class="collection-item place{{id}} {{activeItem}}">
+        <a href="#" class="academiaItem blue-text text-darken-4">
+        <div class="row sem-mb">
+          <div class="col s12 m4">
+            <p class="grey-text text-darken-2 sem-mb sem-pb  sem-mt">
+              Academia
+              <i class="mdi mdi-dumbbell left"></i>
+            </p>
+            <p class="sem-mb">{{gym.title}}</p>
+          </div>
+          <div class="col s12 m4">
+            <p class="grey-text text-darken-2 sem-mb sem-pb  sem-mt">
+              Endereço
+              <i class="mdi mdi-map-marker left"></i>
+            </p>
+            <p class="sem-mb">{{gym.address}}</p>
+          </div>
+          <div class="col s12 m4">
+            <p class="grey-text text-darken-2 sem-mb sem-pb  sem-mt">
+              Instrutor
+              <i class="mdi mdi-human-greeting left"></i>
+            </p>
+            <p class="sem-mb">{{getInstrutor gym.description}}</p>
+          </div>
+        </div>
+        </a>
+      </li>
+      </ul>
+      {{/each}}
+      {{else}}
+      <div class="row center-align">
+          <h6><i class="mdi mdi-emoticon-sad mdi-48px red-text text-darken-2"></i></h6>
+          <h6 class="grey-text text-darken-2">
+            Não há dados para escola pesquisada!<br>
+          </h6>
+      </div>
+      {{/if}}
+  </div>
+    {{/with}}
+</template>

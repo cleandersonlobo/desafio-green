@@ -1,0 +1,16 @@
+
+<template name="layout">
+  <div id="layoutFlex">
+  <header>
+      {{> Template.dynamic template=nav}}
+    </header>
+  <aside>
+    {{>mapa}}
+  </aside>
+    <main>
+      <section class="container">
+        {{> Template.dynamic template=main data=params}}
+      </section>
+    </main>
+  </div>
+</template>

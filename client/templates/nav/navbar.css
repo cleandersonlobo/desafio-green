@@ -1,0 +1,35 @@
+
+a[data-action=back]{
+  font-size: 2rem !important;
+  width: 50px !important;
+}
+a[data-action=back] i{
+  transform: translate(10px,0) !important;
+}
+
+#tituloHeader{
+  font-size: 1.4rem;
+  text-align: center !important;
+}
+#tituloHeader.center{
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.navResultado{
+  transform: translateX(40px) !important;
+}
+
+header{
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: height 0.3s;
+   -moz-transition: height 0.3s;
+   -ms-transition: height 0.3s;
+   -o-transition: height 0.3s;
+   transition: height 0.3s;
+}

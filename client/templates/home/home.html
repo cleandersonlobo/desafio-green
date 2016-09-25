@@ -1,0 +1,36 @@
+<template name="home">
+
+  <div class="section sem-pb sem-mb">
+      <h5 class="center-align sem-margin-padding"><b>JIU-JITSU <span class="red-text text-darken-3">TEAMS</span></b></h5>
+  </div>
+  <div class="section">
+    {{#if academias}}
+    <ul class="collection">
+    {{#each academias}}
+
+      <li class="collection-item">
+      <a href="" class="academiaItem">
+        <div class="row">
+          <div class="col s6">
+            <p class="grey-text text-darken-2 sem-mb sem-pb">Escola</p>
+            <p class="sem-mb blue-text text-darken-4 flow-text">{{name}}</p>
+          </div>
+          <div class="col s6 center-align">
+            <img src="{{urlImg}}{{picture_file_name}}" class="responsive-img" />
+          </div>
+        </div>
+        </a>
+      </li>
+
+    {{/each}}
+    </ul>
+    {{else}}
+        {{#unless error}}
+          {{>loading}}
+        {{else}}
+          {{>erroRequest}}
+          <button class="waves-effect waves-light btn-large btn-responsive center blue-grey darken-3 center">Tentar Novamente</button>
+        {{/unless}}
+    {{/if}}
+  </div>
+</template>

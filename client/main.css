@@ -1,0 +1,69 @@
+.container{
+  margin-top: 310px;
+  padding-bottom: 60px;
+}
+a{
+  outline: none;
+}
+main {
+  outline:none;
+  flex: 1 0 auto;
+  border-width: 0;
+  -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+  user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-transform: translateZ(0);
+
+}
+#map_canvas{
+  height: 250px !important;
+  overflow: hidden !important;
+}
+aside{
+  flex: 1 100%;
+  top: 50px;
+  width: 100%;
+  left: 0 !important;
+  position: fixed !important;
+  z-index: 1000;
+  overflow: auto;
+  -webkit-transition: height 0.3s;
+   -moz-transition: height 0.3s;
+   -ms-transition: height 0.3s;
+   -o-transition: height 0.3s;
+   transition: height 0.3s;
+}
+
+
+.btn-responsive{
+  width: 100% !important;
+}
+/* Font-size icons */
+.mdi-36px{
+  font-size: 36px;
+}
+.mdi-48px{
+  font-size: 48px;
+}
+@media only screen and (max-width: 550px) {
+  .sweet-alert{
+  zoom: 88% !important;
+  -moz-transform: scale(0.95);
+  }
+
+}
+@media only screen and (max-height: 480px) {
+  .sweet-alert{
+  zoom: 85% !important;
+
+  -moz-transform: scale(0.9)
+  }
+
+}
+@media only screen and (max-width: 350px) {
+  .sweet-alert{
+    zoom: 60% !important;
+  }
+}
