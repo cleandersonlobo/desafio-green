@@ -26,7 +26,7 @@ Exemplo de como instalar um novo pacote
 ```
 meteor add cleandersonlobo:mdi-icons
 ```
-+ Outros pacotes no [Atmosphere](https://atmospherejs.com/)
++ Outros pacotes disponível no [Atmosphere](https://atmospherejs.com/)
 
 ## Quick Start Projet
 
@@ -38,14 +38,13 @@ On Linux/macOS, use this line:
 curl https://install.meteor.com/ | sh
 ```
 
-Get the Code
+## Running:
+
+###Get the Code
 
 ```bash
 git clone https://github.com/cleandersonlobo/desafio-green.git
 ```
-
-## Running:
-
 ### Iniciar Servidor
 
 ```bash
@@ -54,17 +53,17 @@ meteor
 ```
 + Link da aplicação é http://localhost:3000
 
-### Iniciar aplicação Android ou iOS (Simulador e Dispositivo)
+### Iniciar aplicação no Android ou iOS (Simulador ou Dispositivo)
 
 ```bash
 meteor run android
-or
+ou
 meteor run android-device
 ```
-Need Xcode
++ Precisa do Xcode
 ```bash
 meteor run ios
-or
+ou
 meteor run ios device
 ```
 
